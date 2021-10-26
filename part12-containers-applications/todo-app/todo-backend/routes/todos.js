@@ -1,3 +1,4 @@
+const { response } = require('express');
 const express = require('express');
 const { Todo } = require('../mongo')
 const router = express.Router();
@@ -35,12 +36,28 @@ singleRouter.delete('/', async (req, res) => {
 
 /* GET todo. */
 singleRouter.get('/', async (req, res) => {
-  res.sendStatus(405); // Implement this
+  res.send(req.todo);
+  //res.sendStatus(405); // Implement this
 });
 
 /* PUT todo. */
 singleRouter.put('/', async (req, res) => {
-  res.sendStatus(405); // Implement this
+  //update the variables...
+  //console.log('a',req.body)
+
+  const todo = {
+    text: req.body.text,
+    done: req.body.done
+  }
+
+  //console.log('b',req.todo)
+  //console.log('c', todo)
+
+  const result = await Todo.findByIdAndUpdate(req.todo._id, todo, {new: true})
+  //console.log('d', result)
+  res.send(result)
+  // update data on server... just check that date exists...
+  //res.sendStatus(405); // Implement this
 });
 
 router.use('/:id', findByIdMiddleware, singleRouter)
