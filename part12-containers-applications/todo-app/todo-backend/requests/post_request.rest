@@ -2,5 +2,5 @@ POST http://localhost:3000/todos
 content-type: application/json
 
 {
-  "text": "testiposti"
+  "text": "Lisää tarkistus testausta..."
 }

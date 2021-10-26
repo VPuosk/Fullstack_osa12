@@ -1,0 +1,318 @@
+]0;vpuosk@DESKTOP-40MUFD3: /mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[01;32mvpuosk@DESKTOP-40MUFD3[00m:[01;34m/mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[00m$ docker-compose -f docker-compose.dev.yml down[K[K[K[Kup -d
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Network todo-backend_default  Creating                                                                          0.1s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠙ Network todo-backend_default  Creating                                                                          0.2s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠹ Network todo-backend_default  Creating                                                                          0.3s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠸ Network todo-backend_default  Creating                                                                          0.4s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠼ Network todo-backend_default  Creating                                                                          0.5s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠴ Network todo-backend_default  Creating                                                                          0.6s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠦ Network todo-backend_default  Creating                                                                          0.7s
+[0m[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠋ Container todo-backend-mongo-1  Creating                                                                        0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.6s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.7s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.8s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.9s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.6s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.7s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.8s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.9s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.6s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.7s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.8s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        2.9s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.6s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.7s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.8s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        3.9s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.6s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.7s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.8s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        4.9s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        5.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        5.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        5.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        5.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        5.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        5.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        5.6s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        5.7s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        5.8s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Network todo-backend_default    Created                                                                         0.7s
+[0m[34m ⠿ Container todo-backend-mongo-1  Started                                                                         5.9s
+[0m[?25h]0;vpuosk@DESKTOP-40MUFD3: /mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[01;32mvpuosk@DESKTOP-40MUFD3[00m:[01;34m/mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[00m$ dock er container ls
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS         PORTS                     NAMES
+9f3684a2c372   mongo     "docker-entrypoint.s…"   11 seconds ago   Up 4 seconds   0.0.0.0:3456->27017/tcp   todo-backend-mongo-1
+]0;vpuosk@DESKTOP-40MUFD3: /mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[01;32mvpuosk@DESKTOP-40MUFD3[00m:[01;34m/mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[00m$ dock er exer[Kc -it todo-backend-mongo-1 mongo
+MongoDB shell version v5.0.3
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("212e1798-e10e-4286-9769-fd163c2b1bd9") }
+MongoDB server version: 5.0.3
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+We recommend you begin using "mongosh".
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	https://docs.mongodb.com/
+Questions? Try the MongoDB Developer Community Forums
+	https://community.mongodb.com
+> show dbs[3G[Jshow dbs[11G
+> [3G[J[3G
+> show dbs[3G[Jshow dbs[11G
+> help[3G[Jhelp[7G
+	db.help()                    help on db methods
+	db.mycoll.help()             help on collection methods
+	sh.help()                    sharding helpers
+	rs.help()                    replica set helpers
+	help admin                   administrative help
+	help connect                 connecting to a db help
+	help keys                    key shortcuts
+	help misc                    misc things to know
+	help mr                      mapreduce
+
+	show dbs                     show database names
+	show collections             show collections in current database
+	show users                   show users in current database
+	show profile                 show most recent system.profile entries with time >= 1ms
+	show logs                    show the accessible logger names
+	show log [name]              prints out the last segment of log in memory, 'global' is default
+	use <db_name>                set current database
+	db.mycoll.find()             list objects in collection mycoll
+	db.mycoll.find( { a : 1 } )  list objects in mycoll where a == 1
+	it                           result of the last line evaluated; use to further iterate
+	DBQuery.shellBatchSize = x   set default number of items to display on shell
+	exit                         quit the mongo shell
+> shpw [3G[Jshpw[7G[3G[Jshp[6G[3G[Jsh[5Goe[3G[Jsho[6Gw usesr[3G[Jshow uses[12G[3G[Jshow use[11Grs[3G[Jshow users[13G
+uncaught exception: Error: command usersInfo requires authentication :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.getUsers@src/mongo/shell/db.js:1635:15
+shellHelper.show@src/mongo/shell/utils.js:933:9
+shellHelper@src/mongo/shell/utils.js:838:15
+@(shellhelp2):1:1
+> exot[3G[Jexo[6G[3G[Jex[5Giot[3G[Jexio[7G[3G[Jexi[6Gt[3G[Jexit[7G
+bye
+]0;vpuosk@DESKTOP-40MUFD3: /mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[01;32mvpuosk@DESKTOP-40MUFD3[00m:[01;34m/mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it todo-backend-mongo-1 mongo -u root -p example
+MongoDB shell version v5.0.3
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("dd2e5f87-049f-4905-9838-af1878a150e5") }
+MongoDB server version: 5.0.3
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+We recommend you begin using "mongosh".
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting: 
+        2021-10-26T08:31:21.802+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> show dbs[3G[Jshow dbs[11G
+admin         0.000GB
+config        0.000GB
+local         0.000GB
+the_database  0.000GB
+> user[3G[Juse[6G the_database[3G[Juse the_database[19G
+switched to db the_database
+> show collections[3G[Jshow collections[19G
+todos
+> db.todos.find({})[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("6177a7d157ddc26646892cb9"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("6177a7d157ddc26646892cba"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("6177aef91f7e2f2b92caf6db"), "text" : "testiposti", "done" : true, "__v" : 0 }
+> sb[3G[Js[4G[3G[J[3Gdb.d[3G[Jdb.[6Gtodos.insertOne( { test[3G[Jdb.todos.insertOne( { tes[28G[3G[Jdb.todos.insertOne( { te[27Gxt: "harjoittelu exec[3G[Jdb.todos.insertOne( { text: "harjoittelu exe[47G[3G[Jdb.todos.insertOne( { text: "harjoittelu ex[46G[3G[Jdb.todos.insertOne( { text: "harjoittelu e[45G[3G[Jdb.todos.insertOne( { text: "harjoittelu [44Gdocker exec", "d[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", "[59G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", [58G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec",[57G done: false });[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[72G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[72G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("6177be2cb5ad17fa02750e92")
+}
+> [3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[72G[3G[Jdb.todos.find({})[20G[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("6177a7d157ddc26646892cb9"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("6177a7d157ddc26646892cba"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("6177aef91f7e2f2b92caf6db"), "text" : "testiposti", "done" : true, "__v" : 0 }
+{ "_id" : ObjectId("6177be2cb5ad17fa02750e92"), "text" : "harjoittelu docker exec", "done" : false }
+> [3G[Jdb.todos.find({})[20G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[72G[3G[Jdb.todos.insertOne[1;34m([0m { text: "harjoittelu docker exec", done: false })[71G[3G[Jdb.todos.insertOne( [1;34m{[0m text: "harjoittelu docker exec", done: false })[70G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[69G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[68G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[67G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[66G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[65G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[64G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[63G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[62G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[61G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[60G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[59G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[58G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[57G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[56G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[55G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[54G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[53G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[52G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[51G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[50G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[49G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[48G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[47G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[46G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[45G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[44G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[43G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[42G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[41G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[40G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[39G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[38G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[37G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[36G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[35G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[34G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[33G[3G[Jdb.todos.insertOne( { text: "harjoittelu docker exec", done: false })[32G[3G[Jdb.todos.insertOne( { text: "Iharjoittelu docker exec", done: false })[33G[3G[Jdb.todos.insertOne( { text: "Inharjoittelu docker exec", done: false })[34G[3G[Jdb.todos.insertOne( { text: "Incharjoittelu docker exec", done: false })[35G[3G[Jdb.todos.insertOne( { text: "Incrharjoittelu docker exec", done: false })[36G[3G[Jdb.todos.insertOne( { text: "Increharjoittelu docker exec", done: false })[37G[3G[Jdb.todos.insertOne( { text: "Increaharjoittelu docker exec", done: false })[38G[3G[Jdb.todos.insertOne( { text: "Increasharjoittelu docker exec", done: false })[39G[3G[Jdb.todos.insertOne( { text: "Increaseharjoittelu docker exec", done: false })[40G[3G[Jdb.todos.insertOne( { text: "Increase harjoittelu docker exec", done: false })[41G[3G[Jdb.todos.insertOne( { text: "Increase tharjoittelu docker exec", done: false })[42G[3G[Jdb.todos.insertOne( { text: "Increase thharjoittelu docker exec", done: false })[43G[3G[Jdb.todos.insertOne( { text: "Increase theharjoittelu docker exec", done: false })[44G[3G[Jdb.todos.insertOne( { text: "Increase the harjoittelu docker exec", done: false })[45G[3G[Jdb.todos.insertOne( { text: "Increase the nharjoittelu docker exec", done: false })[46G[3G[Jdb.todos.insertOne( { text: "Increase the nuharjoittelu docker exec", done: false })[47G[3G[Jdb.todos.insertOne( { text: "Increase the numharjoittelu docker exec", done: false })[48G[3G[Jdb.todos.insertOne( { text: "Increase the numbharjoittelu docker exec", done: false })[49G[3G[Jdb.todos.insertOne( { text: "Increase the numbeharjoittelu docker exec", done: false })[50G[3G[Jdb.todos.insertOne( { text: "Increase the numberharjoittelu docker exec", done: false })[51G[3G[Jdb.todos.insertOne( { text: "Increase the number harjoittelu docker exec", done: false })[52G[3G[Jdb.todos.insertOne( { text: "Increase the number oharjoittelu docker exec", done: false })[53G[3G[Jdb.todos.insertOne( { text: "Increase the number ofharjoittelu docker exec", done: false })[54G[3G[Jdb.todos.insertOne( { text: "Increase the number of harjoittelu docker exec", done: false })[55G[3G[Jdb.todos.insertOne( { text: "Increase the number of tharjoittelu docker exec", done: false })[56G[3G[Jdb.todos.insertOne( { text: "Increase the number of toharjoittelu docker exec", done: false })[57G[3G[Jdb.todos.insertOne( { text: "Increase the number of tooharjoittelu docker exec", done: false })[58G[3G[Jdb.todos.insertOne( { text: "Increase the number of toolharjoittelu docker exec", done: false })[59G[3G[Jdb.todos.insertOne( { text: "Increase the number of toolsharjoittelu docker exec", done: false })[60G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools harjoittelu docker exec", done: false })[61G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools iharjoittelu docker exec", done: false })[62G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools inharjoittelu docker exec", done: false })[63G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in harjoittelu docker exec", done: false })[64G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in mharjoittelu docker exec", done: false })[65G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in myharjoittelu docker exec", done: false })[66G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my harjoittelu docker exec", done: false })[67G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my tharjoittelu docker exec", done: false })[68G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toharjoittelu docker exec", done: false })[69G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my tooharjoittelu docker exec", done: false })[70G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolharjoittelu docker exec", done: false })[71G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbharjoittelu docker exec", done: false })[72G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeharjoittelu docker exec", done: false })[73G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbelharjoittelu docker exec", done: false })[74G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltharjoittelu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltarjoittelu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltrjoittelu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltjoittelu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltoittelu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltittelu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltttelu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbelttelu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltelu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltlu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltu docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbelt docker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltdocker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltocker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltcker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltker exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbelter exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltr exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbelt exec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltexec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltxec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltec", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbeltc", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbelt", done: false })[75G[3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbelt", done: false })[92G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("6177be6bb5ad17fa02750e93")
+}
+> [3G[Jdb.todos.insertOne( { text: "Increase the number of tools in my toolbelt", done: false })[92G[3G[Jdb.todos.find({})[20G[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("6177a7d157ddc26646892cb9"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("6177a7d157ddc26646892cba"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("6177aef91f7e2f2b92caf6db"), "text" : "testiposti", "done" : true, "__v" : 0 }
+{ "_id" : ObjectId("6177be2cb5ad17fa02750e92"), "text" : "harjoittelu docker exec", "done" : false }
+{ "_id" : ObjectId("6177be6bb5ad17fa02750e93"), "text" : "Increase the number of tools in my toolbelt", "done" : false }
+> exitr[3G[Jexit[7G[3G[Jexit[7G
+bye
+]0;vpuosk@DESKTOP-40MUFD3: /mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[01;32mvpuosk@DESKTOP-40MUFD3[00m:[01;34m/mnt/d/Other/Fullstack/fullstack_osa12/part12-containers-applications/todo-app/todo-backend[00m$ exit r[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+exit
+
+Script done on 2021-10-26 11:38:24+03:00 [COMMAND_EXIT_CODE="0"]
