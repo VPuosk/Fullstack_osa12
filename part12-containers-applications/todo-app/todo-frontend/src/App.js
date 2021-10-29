@@ -7,6 +7,7 @@ function App() {
       <TodoView />
       <div>
         <a href={"https://fullstackopen.com/en/"}>learn react</a>
+        <p>TEST II</p>
       </div>
     </div>
   );
