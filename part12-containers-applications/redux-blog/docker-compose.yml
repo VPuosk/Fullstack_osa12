@@ -1,0 +1,23 @@
+services:
+  server:
+    image: redux-blog-back
+    build: 
+      context: ./redux-blog-back
+      dockerfile: Dockerfile
+    volumes:
+      - /usr/src/app/node_modules
+    ports:
+      - 3003:3003
+    env_file:
+      - ./redux-blog-back/.env
+    environment:
+      - NODE_ENV=production
+    container_name: redux-blog-back
+  app:
+    image: redux-blog-front
+    build:
+      context: ./redux-blog-front
+      dockerfile: Dockerfile
+    ports:
+      - 3000:80
+    container_name: redux-blog-front
