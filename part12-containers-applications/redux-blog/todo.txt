@@ -1,0 +1,9 @@
+1. start front & back           x
+    a - in dev mode               x
+    b - in production mode        x
+2. test functionality           -
+    a - run tests               -
+3. dev.Dockerfile               x
+    a - front                     x
+    b - back                      x
+4. docker-compose.dev.yml       x

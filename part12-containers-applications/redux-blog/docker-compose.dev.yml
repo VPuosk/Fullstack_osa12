@@ -1,0 +1,30 @@
+services:
+  server:
+    image: redux-blog-back-dev
+    build: 
+      context: ./redux-blog-back
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./redux-blog-back:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - 3003:3003
+    env_file:
+      - ./redux-blog-back/.env
+    environment:
+      - NODE_ENV=development
+    #  - REDIS_URL=//redis:6379
+    #  - MONGO_URL=mongodb://the_username:the_password@mongo:27017/the_database
+    container_name: redux-blog-back-dev
+  app:
+    image: redux-blog-front-dev
+    build:
+      context: ./redux-blog-front
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./redux-blog-front:/usr/src/app
+    ports:
+      - 3000:3000
+    #environment:
+    #  - REACT_APP_BACKEND_URL=http://localhost:8080/api/
+    container_name: redux-blog-front-dev
